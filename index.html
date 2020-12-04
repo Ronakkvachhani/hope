@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css.css">
+  <script type='text/javascript'>
+    function colorChanger(el){
+     if(el.style.backgroundColor)
+     { el.style.backgroundColor=null;
+      el.style.textDecoration=null;
+     }
+     else {
+        el.style.backgroundColor = '#007d00';
+        el.style.textDecoration = "line-through"; }
+    }
+    
+    </script>
+</head>
+
+<body>
+  <div class="head">
+    <h1 class="animation">WELCOME TO BINGO GAME</h1>
+  </div>
+
+  <div class="middle">
+    <div class="ti">
+      <table class="ta">
+        
+        <caption class="highlight">Player 1</caption>
+        <tr>
+          <td onclick="colorChanger(this);">01</td>
+          <td onclick="colorChanger(this);" ></td>
+          <td onclick="colorChanger(this);" >25</td>
+          <td onclick="colorChanger(this);">33</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">57</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">77</td>
+          <td onclick="colorChanger(this);"></td>
+        </tr>
+        <tr>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">17</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">37</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">58</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">78</td>
+          <td onclick="colorChanger(this);">81</td>
+        </tr>
+        <tr>
+          <td onclick="colorChanger(this);">04</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">28</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">46</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">65</td>
+          <td onclick="colorChanger(this);"></td>
+          <td onclick="colorChanger(this);">85</td>
+        </tr>
+        
+      </table>
+    </div>
+  </div>
+
+  <div class="footer"></div>
+
+</body>
+
+</html>
